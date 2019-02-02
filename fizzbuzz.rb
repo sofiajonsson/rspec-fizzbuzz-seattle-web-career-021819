@@ -10,7 +10,7 @@ def fizzbuzz (int)
  "Buzz"
  
  
-elsif int % 15 == 0 
+elsif int % 3 && int % 5 == 0 
     "Fizzbuzz"
   else 
     "nil"
