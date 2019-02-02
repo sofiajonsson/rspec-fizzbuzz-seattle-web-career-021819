@@ -6,14 +6,15 @@ def fizzbuzz (int)
   if int % 3 == 0
   "Fizz"
 end 
-end
-  # elseif int % 5 == 0 
-  #   puts "Buzz"
-  # elseif int % 15 == 0
-  #   puts "Fizzbuzz"
- 
-  # else int % 4 == 0
-  # puts "nil"
+   elseif int % 5 == 0 
+ "Buzz"
+ end
+elseif int % 15 ==0 
+    "Fizzbuzz"
+  else 
+    "nil"
+ end 
+ end
 
 
 # n = 1
